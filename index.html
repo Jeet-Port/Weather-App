@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="weather-side">
+      <div class="weather-gradient"></div>
+      <div class="date-container">
+        <h2 class="date-dayname"></h2>
+        <span class="date-day"></span>
+        <i class="location-icon" data-feather="map-pin"></i>
+        <span class="location"></span>
+      </div>
+      <div class="weather-container">
+        <i class="weather-icon" data-feather="sun"></i>
+        <h1 class="weather-temp"></h1>
+        <h3 class="weather-desc"></h3>
+      </div>
+    </div>
+    <div class="info-side">
+      <div class="today-info">
+        <div class="pressure"></div>
+        <div class="humidity"></div>
+        <div class="wind"></div>
+      </div>
+      <div class="dropdown">
+        <select id="countryDropdown"></select>
+
+      </div>
+      <div class="location-container">
+        <button class="location-button" id="changeValue">
+          <i data-feather="map-pin"></i>
+          <span>Change location</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
